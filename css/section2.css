@@ -1,0 +1,136 @@
+
+.aboutMe {
+   margin-left: 35%;
+   margin-top: -15%;
+
+}
+
+.who {
+    margin-top: -180px;
+    margin-left: 140px;
+    grid-row: 3;
+    width: auto;
+    grid-column: 1 /span 2;
+    font-size: xx-large;
+}
+
+.whoImI {
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.whoImIText {
+    padding-bottom: 3%;
+}
+
+/* TIMELINE */
+.timeline {
+    position: relative;
+    margin-right: 5em;
+  }
+  
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    background-color: #F2E497;
+    top: 4em;
+    bottom: 0;
+    left: 50%;
+    /* margin-left: -3px; */
+  }
+
+  .container {
+    padding: 10px 30px;
+    position: relative;
+    background-color: inherit;
+    width: 40%;
+  }
+
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #76386b8c;  
+    border: #F2E497 3px solid;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+ .left {
+    left: 0;
+  }
+  
+  .right {
+    left: 50%;
+  }
+  
+  .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: #F2E497 5px solid;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent rgba(207, 168, 164, 0.918);
+  }
+  
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent rgba(207, 168, 164, 0.918) transparent transparent;
+  }
+  
+  .right::after {
+    left: -16px;
+  }
+  
+  .contentright {
+    padding: 20px 30px;
+    background-color: #76386b8c;  
+    position: relative;
+    border-radius: 6px;
+    margin-top: -30%;
+    border: #F2E497 3px solid;
+  }
+
+  .contentfirst {
+    padding: 20px 30px;
+    background-color: #76386b8c;  
+    position: relative;
+    border-radius: 6px;
+    border: #F2E497 3px solid;
+  }
+
+  .contentleft {
+    padding: 20px 30px;
+    background-color: #76386b8c;  
+    position: relative;
+    border-radius: 6px;
+    margin-top: -30%;
+    border: #F2E497 3px solid;
+  }
+
+  .cv{
+      color: rgb(116, 116, 84);
+      display: flex;
+
+      justify-content: center;
+    }
+  
+ 

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    scroll-behavior: smooth;
+    background: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+main {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
