@@ -105,7 +105,7 @@
     background-color: #76386b8c;  
     position: relative;
     border-radius: 6px;
-    margin-top: -30%;
+    margin-top: -40%;
     border: #F2E497 3px solid;
   }
 
@@ -122,14 +122,13 @@
     background-color: #76386b8c;  
     position: relative;
     border-radius: 6px;
-    margin-top: -30%;
+    margin-top: -40%;
     border: #F2E497 3px solid;
   }
 
   .cv{
-      color: rgb(116, 116, 84);
+      color: rgb(136, 68, 163);
       display: flex;
-
       justify-content: center;
     }
   
