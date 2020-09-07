@@ -1,17 +1,25 @@
+.me {
+    grid-row:4;
+    grid-column:2;
+}
+
+.me img {
+    height: 70vh;
+    margin-left: 40%;
+    margin-top: 7%;
+    border-radius: 10%;
+}
+
+
 
 .aboutMe {
-   margin-left: 35%;
    margin-top: -5%;
-
 }
 
 .who {
     margin-top: -180px;
     margin-left: 140px;
-    grid-row: 3;
     width: auto;
-    grid-column: 1 /span 2;
-    font-size: xx-large;
 }
 
 .whoImI {
@@ -28,7 +36,8 @@
 /* TIMELINE */
 .timeline {
     position: relative;
-    margin-right: 5em;
+    margin-left: 5em;
+    margin-top: -40%;
   }
   
   .timeline::after {
@@ -132,4 +141,4 @@
       justify-content: center;
     }
   
- 
+
